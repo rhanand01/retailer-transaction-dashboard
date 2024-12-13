@@ -11,7 +11,7 @@ st.title(':bar_chart: Retailer Transaction Dashboard')
 st.markdown("<style>div.block-container{padding-top:3rem;}</style>",unsafe_allow_html=True)
 
 # Manually specify the CSV file path
-file_path = 'E:\\Elevatoz intern\\5_Day\\Sample_Reports\\Transactions_sample.csv'
+file_path = 'Transactions_sample.csv'
 
 # Load data using pd.read_csv()
 @st.cache_data
